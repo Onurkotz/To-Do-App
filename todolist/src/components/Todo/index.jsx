@@ -9,7 +9,7 @@ import "./style.css";
 
 function Todo() {
 
-    const [listin, setList] = useEffect([
+    const [listin, setList] = useState([
         { 
             written: "Öğle yemeği", 
         },
@@ -19,7 +19,7 @@ function Todo() {
 
     ]);
 
-    
+    useEffect( () => {console.log(listin);}, [listin] );
 
   return (
     <div>
