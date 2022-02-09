@@ -24,7 +24,7 @@ function Todo() {
   return (
     <div className="container">
         <h1>What will I do?</h1>
-        <div className="col-sm">
+        <div>
         <List listin={listin} />
         <Input addList={setList}  listin={listin} />
         </div>

@@ -1,13 +1,20 @@
 import { useState } from "react";
 import "./style.css";
 
+
+
 function List ({listin}) {
 
-    //const [ordering, setOrderText] = useState("");
+
+  let time = new Date().toLocaleString();
+  
+ 
+      
 
   return (
     <div className="row">
-      <div className="splitf">
+      <div className="first">
+      <h4>{time}</h4>
         <ul>
             {listin.map( (listin, i) => (
                 <li key={i}><span>{listin.written}</span></li>

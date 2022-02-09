@@ -1,29 +1,39 @@
-li {
-    list-style: none;
-}
 
-.splitf {
+.first {
     height: 58%;
-    width: 100%;
+    width: 50%;
     position:fixed;
     z-index: 0;
     top: 10;
     overflow-x: hidden;
     padding-top: 20px;
-    background-color: blanchedalmond;
-    border: 5px solid black;
-    left: 0;
-    margin-left: 50px;
+    border: 3px solid black;
+    left: 25%;
+    background-image: url(https://mcdn.wallpapersafari.com/medium/94/54/DN3Vlq.jpg);
   }
-
-.first{
-    
-    background-color: burlywood;
-    
-   
-}
 
 ul{
     text-align: center;
     margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+li {
+    list-style: none;
+    border-bottom: 1px solid rgb(82, 153, 82);
+    margin-right: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family:  'Caveat', cursive;
+    font-size: 30px;
+}
+
+h4{
+    color: black;
+    text-align: center;
+    font-family:  'Architects Daughter', cursive;
+    font-size: 35px;
+    font-weight: bold;
 }

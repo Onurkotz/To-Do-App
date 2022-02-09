@@ -27,13 +27,13 @@ function Input( { addList, listin } ) {
 
   return (
     <div className="row">
-      <div className="bg-danger split">
+      <div className="second">
       <form onSubmit={onSubmit} className="">
         <div className="formd">
-            <input name="written" placeholder="Write what you do." value={inputVal.written} onChange={onChangeInput} />
+            <input name="written" placeholder="Write what will you do." value={inputVal.written} onChange={onChangeInput} />
         </div>
-        <div className="but">
-        <button>Add List</button>
+        <div className="but1">
+        <button className="but">Add List</button>
         </div>
       
     </form>

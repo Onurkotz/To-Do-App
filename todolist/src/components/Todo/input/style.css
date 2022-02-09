@@ -1,27 +1,47 @@
-.split {
+.second {
   height: 30%;
-  width: 100%;
+  width: 50%;
   position: fixed;
   z-index: 1;
   bottom: 0;
   overflow-x: hidden;
   padding-top: 20px;
-  border: 5px solid black;
-  left: 0;
-  margin-left: 50px; }
-
-.second {
-  background-color: blue; }
+  border: 3px solid black;
+  left: 25%;
+  background-image: url(https://mcdn.wallpapersafari.com/medium/92/63/sxBKWg.jpg); }
 
 .formd {
   text-align: center; }
 
+/*$font: 'Architects Daughter', cursive;*/
+.but1 {
+  text-align: center; }
+
 input {
   text-align: center;
-  margin-top: 20px; }
+  margin-top: 6px;
+  width: 250px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 20px; }
+  input::placeholder {
+    color: black; }
+  input:focus {
+    outline: none; }
 
 .but {
   text-align: center;
-  margin-top: 10px; }
+  margin-top: 24px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100px;
+  height: 20px;
+  border: none;
+  background: transparent; }
+  .but:hover {
+    color: blue; }
 
 /*# sourceMappingURL=style.css.map */
