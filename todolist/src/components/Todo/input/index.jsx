@@ -11,7 +11,7 @@ function Input( { addList, listin } ) {
     useEffect( () => {setInputVal(initialForm);}, [listin]);
 
     const onChangeInput = (e) => {
-        setInputVal({...inputVal, [e.target.name]: target.value});
+        setInputVal({...inputVal, [e.target.name]: e.target.value});
     };
 
     const onSubmit = (e) => {
