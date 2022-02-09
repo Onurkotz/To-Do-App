@@ -26,15 +26,19 @@ function Input( { addList, listin } ) {
 
 
   return (
-    <form onSubmit={onSubmit}>
-        <div>
+    <div className="row">
+      <div className="bg-danger split">
+      <form onSubmit={onSubmit} className="">
+        <div className="formd">
             <input name="written" placeholder="Write what you do." value={inputVal.written} onChange={onChangeInput} />
         </div>
-      <div>
+        <div className="but">
         <button>Add List</button>
-      </div>
+        </div>
       
     </form>
+      </div>
+    </div>
   )
 }
 

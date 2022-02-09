@@ -22,10 +22,12 @@ function Todo() {
     useEffect( () => {console.log(listin);}, [listin] );
 
   return (
-    <div>
+    <div className="container">
         <h1>What will I do?</h1>
+        <div className="col-sm">
         <List listin={listin} />
         <Input addList={setList}  listin={listin} />
+        </div>
     </div>
   )
 }

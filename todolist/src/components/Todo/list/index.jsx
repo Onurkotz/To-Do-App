@@ -6,12 +6,14 @@ function List ({listin}) {
     //const [ordering, setOrderText] = useState("");
 
   return (
-    <div>
-      <ul>
-          {listin.map( (listin, i) => (
-              <li key={i}><span>{listin.written}</span></li>
-          ))}
-      </ul>
+    <div className="row">
+      <div className="splitf">
+        <ul>
+            {listin.map( (listin, i) => (
+                <li key={i}><span>{listin.written}</span></li>
+            ))}
+        </ul>
+      </div>
     </div>
   )
 }

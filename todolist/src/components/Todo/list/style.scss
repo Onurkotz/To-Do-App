@@ -1,0 +1,29 @@
+li {
+    list-style: none;
+}
+
+.splitf {
+    height: 58%;
+    width: 100%;
+    position:fixed;
+    z-index: 0;
+    top: 10;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: blanchedalmond;
+    border: 5px solid black;
+    left: 0;
+    margin-left: 50px;
+  }
+
+.first{
+    
+    background-color: burlywood;
+    
+   
+}
+
+ul{
+    text-align: center;
+    margin-top: 20px;
+}
