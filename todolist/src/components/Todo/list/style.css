@@ -1,12 +1,13 @@
 .first {
-  height: 58%;
   width: 50%;
+  height: 58%;
   position: fixed;
   z-index: 0;
   top: 10;
   overflow-x: hidden;
   padding-top: 20px;
   border: 3px solid black;
+  border-radius: 20px;
   left: 25%;
   background-image: url(https://mcdn.wallpapersafari.com/medium/94/54/DN3Vlq.jpg); }
 
@@ -31,5 +32,22 @@ h4 {
   font-family: 'Architects Daughter', cursive;
   font-size: 35px;
   font-weight: bold; }
+
+.checked {
+  background: #276678;
+  color: #fff;
+  text-decoration: line-through; }
+
+.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px; }
 
 /*# sourceMappingURL=style.css.map */
