@@ -9,15 +9,18 @@ import "./style.css";
  onClick={tick} 
 */
 
-
-
 function List ({listin}) {
   
-  function remove(){
+  
+  
+  function check(){
     const list = document.querySelector('.list');
-    list.classList.add("checked");
+    list.classList.toggle("checked")
+    console.log("improve this!")
+     
   }
-
+    
+  
 
   return (
     <div className="row">
@@ -26,10 +29,9 @@ function List ({listin}) {
         <ul>
         {listin.map( (listin, i) => (
                 <li key={i}>
-                  <span className="list" onClick={remove} >
+                  <span className="list" onClick={check} >
                     {listin.written}
                   </span>
-                  
                   </li>
                 
             ))} 
