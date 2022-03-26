@@ -1,9 +1,9 @@
-import Todo from "./components/Todo";
+import Agenda from "./components/Todo/main.jsx";
 
 function App() {
   return (
     <div>
-     <Todo />
+     <Agenda />
     </div>
   );
 }
