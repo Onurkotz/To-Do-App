@@ -1,2 +1,2 @@
 # To-Do-App
-To Do App is still developing.
+To Do App is rebuilding with Redux.
