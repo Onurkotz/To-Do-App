@@ -31,7 +31,7 @@ function Input() {
           <div className="formd">
             <input
               name="written"
-              placeholder="Write here what will you do."
+              placeholder="Write here what will you do !"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
               autoFocus

@@ -30,7 +30,7 @@
 input{
     text-align: center;
     margin-top: 6px;
-    @include sizes(250px, 30px);
+    @include sizes(350px, 30px);
     border: none;
     background: transparent;
     @include font(20px);

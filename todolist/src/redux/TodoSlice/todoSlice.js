@@ -6,12 +6,12 @@ export const todoSlice = createSlice({
     items: [
       {
         id: "1",
-        title: "Arkadaşlarla buluşma",
+        title: "Meet friends",
         complete: false,
       },
       {
         id: "2",
-        title: "Kodlama çalış",
+        title: "CODE!",
         complete: false,
       },
     ],
