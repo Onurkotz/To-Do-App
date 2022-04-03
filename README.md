@@ -5,7 +5,7 @@
 
 - Uses ReactJS and Redux.
 
-<img src="./screenShot/SS.png" style="width: 600px; height: 300px">
+<img src="./todolist/screenShot/ss.png" style="width: 600px; height: 300px">
 
 ## WHICH LIBRARY AND PACKAGES WAS USED IN THIS APP? 
 
