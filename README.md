@@ -1,7 +1,11 @@
 # To Do App
-To Do App is rebuilding with Redux.
 
-<img src="./screenShot/SS.png" style="width: 1300px; height: 650px">
+
+## WHICH LANGUAGES DOES APP USE?
+
+- Uses ReactJS and Redux.
+
+<img src="./screenShot/SS.png" style="width: 600px; height: 300px">
 
 ## WHICH LIBRARY AND PACKAGES WAS USED IN THIS APP? 
 
